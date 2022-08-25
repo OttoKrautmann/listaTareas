@@ -16,6 +16,11 @@ const Formulario = () => {
 
   }
 
+  const borrarTarea = (nombreTarea)=>{
+    let arregloModificado = arregloTareas.filter((valor)=>{return valor != nombreTarea});
+    
+  }
+
   // aqui el maquetado
   return (
     <div>
