@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 
 const Frase = (props) => {
   return (
-    <div className="text-center">
+    <div className="d-flex justify-content-center">
       <Card>
         <div className="row">
           <div className="col-12 col-sm-12 col-md-3">
