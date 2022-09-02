@@ -1,0 +1,25 @@
+{
+    "productos":[
+        {
+            "nombreProducto": "café",
+            "precio": "250",
+            "imagen": "https://...",
+            "categoria": "infusion",
+            "id": 1
+        },
+        {
+            "nombreProducto": "licuado",
+            "precio": "450",
+            "imagen": "https://...",
+            "categoria": "bebida",
+            "id": 2
+        },
+        {
+            "nombreProducto": "medialuna",
+            "precio": "50",
+            "imagen": "https://...",
+            "categoria": "dulce",
+            "id": 3
+        }
+    ]
+}
