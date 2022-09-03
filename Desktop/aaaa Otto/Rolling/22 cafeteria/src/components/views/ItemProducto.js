@@ -1,14 +1,14 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 
-const ItemProducto = () => {
+const ItemProducto = (props) => {
   return (
     <tr>
-      <td>1</td>
-      <td>Café</td>
-      <td>$250</td>
-      <td>https://...</td>
-      <td>Infusión</td>
+      <td>{props.producto.id}</td>
+      <td>{props.producto.nombreProducto}</td>
+      <td>{props.producto.precio}</td>
+      <td>{props.producto.imagen}</td>
+      <td>{props.producto.categoria}</td>
       <td className="text-end">
         <Button variant="warning" type="submit" className="me-1" >
           Editar

@@ -1,9 +1,29 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import Button from "react-bootstrap/Button";
 import Table from "react-bootstrap/Table";
 import ItemProducto from "./ItemProducto";
 
 const Administrador = () => {
+  const URL = process.env.REACT_APP_API_CAFETERIA
+  const [productos, setProductos] = useState([])
+  
+  useEffect (()=>{
+    consultarAPI()
+  }, [])
+
+  const consultarAPI = async () =>{
+    // peticion get
+    try{
+      // codigo que quiero ejecutar
+    const respuesta = await fetch(URL)
+    const listaProductos = await respuesta.json()
+    setProductos(listaProductos)
+    }catch(error){
+      console.log(error)
+      // agregar un mensaje intuitivo al usuario
+    }
+  }
+
   return (
     <div className="container py-4">
       <div className="d-flex justify-content-between">
@@ -25,9 +45,10 @@ const Administrador = () => {
           </tr>
         </thead>
         <tbody>
-          <ItemProducto></ItemProducto>
-          <ItemProducto></ItemProducto>
-          <ItemProducto></ItemProducto>
+          {/* tengo que hacer un map */}
+          {
+            productos.map((producto)=> <ItemProducto key={producto.id} producto={producto}/>)
+          }
         </tbody>
       </Table>
     </div>
