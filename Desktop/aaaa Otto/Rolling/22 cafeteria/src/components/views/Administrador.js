@@ -13,15 +13,15 @@ const Administrador = () => {
         </Button>
       </div>
       <hr />
-      <Table striped bordered hover>
+      <Table striped bordered hover responsive>
         <thead>
           <tr>
-            <th>#</th>
-            <th>Nombre</th>
+            <th>Id</th>
+            <th>Producto</th>
             <th>Precio</th>
             <th>URL imagen</th>
             <th>Categoría</th>
-            <th>Acciones</th>
+            <th>Opciones</th>
           </tr>
         </thead>
         <tbody>
