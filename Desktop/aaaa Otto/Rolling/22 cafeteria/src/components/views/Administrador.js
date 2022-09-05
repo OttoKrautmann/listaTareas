@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
-import Button from "react-bootstrap/Button";
 import Table from "react-bootstrap/Table";
 import ItemProducto from "./ItemProducto";
+import {Link} from "react-router-dom"
 
 const Administrador = () => {
   const URL = process.env.REACT_APP_API_CAFETERIA
@@ -26,11 +26,9 @@ const Administrador = () => {
 
   return (
     <div className="container py-4">
-      <div className="d-flex justify-content-between">
+      <div className="d-flex justify-content-between align-items-center">
         <h1>Tabla de productos</h1>
-        <Button variant="dark" type="submit">
-          Agregar producto
-        </Button>
+        <Link to="/crearProducto" className="btn btn-dark">Agregar producto</Link>
       </div>
       <hr />
       <Table striped bordered hover responsive>
