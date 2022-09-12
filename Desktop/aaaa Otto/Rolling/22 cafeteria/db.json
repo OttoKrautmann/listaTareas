@@ -41,6 +41,83 @@
       "imagen": "sjdnj",
       "categoria": "Salado",
       "id": 6
+    },
+    {
+      "nombreProducto": "hola",
+      "precio": "150",
+      "imagen": "sdjnckjn",
+      "categoria": "Otros",
+      "id": 7
+    },
+    {
+      "nombreProducto": "hola",
+      "precio": "150",
+      "imagen": "sdjnckjn",
+      "categoria": "Otros",
+      "id": 8
+    },
+    {
+      "nombreProducto": "hola",
+      "precio": "150",
+      "imagen": "sdjnckjn",
+      "categoria": "Otros",
+      "id": 9
+    },
+    {
+      "nombreProducto": "hola",
+      "precio": "150",
+      "imagen": "sdjnckjn",
+      "categoria": "Otros",
+      "id": 10
+    },
+    {
+      "nombreProducto": "hola",
+      "precio": "150",
+      "imagen": "sdjnckjn",
+      "categoria": "Otros",
+      "id": 11
+    },
+    {
+      "nombreProducto": "hola",
+      "precio": "150",
+      "imagen": "sdjnckjn",
+      "categoria": "Otros",
+      "id": 12
+    },
+    {
+      "nombreProducto": "hola",
+      "precio": "150",
+      "imagen": "sdjnckjn",
+      "categoria": "Otros",
+      "id": 13
+    },
+    {
+      "nombreProducto": "hola",
+      "precio": "150",
+      "imagen": "sdjnckjn",
+      "categoria": "Otros",
+      "id": 14
+    },
+    {
+      "nombreProducto": "hola",
+      "precio": "150",
+      "imagen": "sdjnckjn",
+      "categoria": "Otros",
+      "id": 15
+    },
+    {
+      "nombreProducto": "hola",
+      "precio": "150",
+      "imagen": "sdjnckjn",
+      "categoria": "Otros",
+      "id": 16
+    },
+    {
+      "nombreProducto": "cloro",
+      "precio": "150",
+      "imagen": "cloro",
+      "categoria": "Infusión",
+      "id": 17
     }
   ]
 }
