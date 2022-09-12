@@ -1,25 +1,46 @@
 {
-    "productos":[
-        {
-            "nombreProducto": "café",
-            "precio": "250",
-            "imagen": "https://...",
-            "categoria": "infusion",
-            "id": 1
-        },
-        {
-            "nombreProducto": "licuado",
-            "precio": "450",
-            "imagen": "https://...",
-            "categoria": "bebida",
-            "id": 2
-        },
-        {
-            "nombreProducto": "medialuna",
-            "precio": "50",
-            "imagen": "https://...",
-            "categoria": "dulce",
-            "id": 3
-        }
-    ]
+  "productos": [
+    {
+      "nombreProducto": "café",
+      "precio": "250",
+      "imagen": "https://...",
+      "categoria": "infusion",
+      "id": 1
+    },
+    {
+      "nombreProducto": "licuado",
+      "precio": "450",
+      "imagen": "https://...",
+      "categoria": "bebida",
+      "id": 2
+    },
+    {
+      "nombreProducto": "medialuna",
+      "precio": "50",
+      "imagen": "https://...",
+      "categoria": "dulce",
+      "id": 3
+    },
+    {
+      "nombreProducto": "brownie",
+      "precio": "250",
+      "imagen": "https://...",
+      "categoria": "dulce",
+      "id": 4
+    },
+    {
+      "nombreProducto": "bollito",
+      "precio": "30",
+      "imagen": "skdmclkmsclkm",
+      "categoria": "Panadería",
+      "id": 5
+    },
+    {
+      "nombreProducto": "galletas",
+      "precio": "400",
+      "imagen": "sjdnj",
+      "categoria": "Salado",
+      "id": 6
+    }
+  ]
 }
